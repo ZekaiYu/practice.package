@@ -1,0 +1,28 @@
+---
+title: "Project 3: practice.package Tutorial"
+author: "Zekai Yu"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Project 3: practice.package Tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(practice.package)
+```
+
+This package is used as an example of how to make a package.
+
+Here's an example of how to use the function `my_pow()`.
+
+```{r}
+my_pow(5,5)
+```
